@@ -767,9 +767,9 @@ a:hover {
   content: "";
   font-family: "Font Awesome 5 Free";
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 100%;
-  transform: translateY(-45%);
+  transform: translateY(-50%);
 }
 .dropdown .dropdown-content {
   display: none;
@@ -986,7 +986,7 @@ a:hover {
 }
 .footer .social {
   display: flex;
-  font-size: 20px;
+  font-size: 18px;
 }
 .footer .social li {
   display: block;
