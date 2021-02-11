@@ -1,0 +1,42 @@
+.header {
+    position: relative;
+    background-color: $dark-gray;
+    padding: 15px 0;
+
+    .container {
+        @include media(">=tablet") {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+.header-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include media(">=tablet") {
+        display: block;
+    }
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+    font-size: 18px;
+
+    span {
+        opacity: 1;
+    }
+
+    img {
+        padding-right: 17px;
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+}
