@@ -835,7 +835,6 @@ a:hover {
   color: #fff;
   overflow: hidden;
   height: 500px;
-  z-index: -1;
 }
 .intro .content {
   position: relative;
@@ -862,6 +861,14 @@ a:hover {
   display: flex;
   align-items: center;
   font-size: 16px;
+}
+.breadcrumb a {
+  color: #eee;
+  transition: color 0.3s ease-in-out;
+}
+.breadcrumb a:hover {
+  color: #ffa000;
+  text-decoration: none;
 }
 .breadcrumb .active {
   color: #ffa000;
@@ -932,6 +939,7 @@ a:hover {
   position: relative;
   background-color: #222;
   padding: 15px 0;
+  z-index: 40;
 }
 @media (min-width: 768px) {
   .header .container {

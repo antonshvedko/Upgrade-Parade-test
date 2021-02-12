@@ -17,7 +17,6 @@
 	color: $white;
 	overflow: hidden;
 	height: 500px;
-	z-index: -1;
 
 	.content {
 		position: relative;
@@ -47,6 +46,16 @@
 	display: flex;
 	align-items: center;
 	font-size: 16px;
+
+	a {
+		color: $white-100;
+		transition: color .3s ease-in-out;
+
+		&:hover {
+			color: $yellow;
+			text-decoration: none;
+		}
+	}
 
 	.active {
 		color: $yellow;
