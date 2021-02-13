@@ -10,7 +10,25 @@ if (typeof menu !== 'undefined') {
     });
 }
 
+let dropBtn = document.querySelector('.dropbtn');
+let dropContent = document.querySelector('.dropdown-content');
+dropContent.style.display = 'none';
 
+dropBtn.addEventListener('mouseover', (event) => {
+    dropContent.style.display = 'block';
+}) 
+
+dropBtn.addEventListener('mouseout', (event) => {
+    dropContent.style.display = 'none';
+}) 
+
+dropContent.addEventListener('mouseover', (event) => {
+    dropContent.style.display = 'block';
+})
+
+dropContent.addEventListener('mouseout', (event) => {
+        dropContent.style.display = 'none';
+    })
 
 
 

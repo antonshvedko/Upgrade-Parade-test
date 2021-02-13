@@ -161,10 +161,6 @@
         .dropbtn {
         color: $yellow;
         }
-
-        .dropdown-content {
-            display: block;
-        }
     }
 
     .dropbtn {
@@ -191,7 +187,6 @@
     }
 
     .dropdown-content {
-        display: none;
         position: absolute;
         background-color: $white-200;
         min-width: 200px;
